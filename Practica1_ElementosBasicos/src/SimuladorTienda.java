@@ -61,7 +61,7 @@ public class SimuladorTienda {
         System.out.printf("\nDescuento aplicable: %b", descuento);
         System.out.println("\nPuntos acumulados: " + (int) importeTotal); // Conversión para convertir valor double a int (los puntos acumulados son equivalentes al redondeo del importe total con IVA)
         System.out.println("\n----------------------------------------");
-        System.out.printf("\n%s - Gracias por comprar", nombreSupermercado);
+        System.out.printf("\n%s - Gracias por comprar, %s", nombreSupermercado, nombreCliente);
                
     }
     
